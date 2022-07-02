@@ -13,7 +13,7 @@ function openCategories(evt, cityName) {
 
     categories = document.querySelectorAll('.cubiq_news');
     categoryList = document.querySelectorAll('.cubiq_list');
-    let categoriesNews = document.querySelector('#cubiq_categories');
+    let categoriesNews = document.querySelector('#cubiq_categories_news');
     function categoryScroll() {
         categoriesNews.scrollTop = 0;
         categoriesNews.scrollIntoView({block: "start", behavior: "smooth"});
