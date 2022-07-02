@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css
+Disallow: /js
+Disallow: /private
+Disallow: /system
+Disallow: /assets/
+Host: ingame.space
