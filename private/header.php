@@ -9,7 +9,7 @@
                 <li><a href="../guides.php"><h2>Гайды</h2></a></li>
             </ul>
         </nav>
-        <form action="http://www.google.com/search" method="get" target="_blank">
+        <form action="https://www.google.com/search" method="get" target="_blank">
             <input type="search" name="q" id="search" placeholder="Поиск Google" class="form-control"/>
         </form>
         <div class="mobile_menu" onclick="mobileClick()">
