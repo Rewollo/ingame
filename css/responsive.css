@@ -150,4 +150,14 @@
         justify-content: space-between;
         height: 100px;
     }
+
+    .cubiq_list:hover {
+        cursor: pointer;
+        transform: scale(1.1) translateX(0);
+    }
+    .videos_list:hover {
+        cursor: pointer;
+        text-shadow: none;
+        color: white;
+    }
 }
