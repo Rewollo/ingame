@@ -235,7 +235,7 @@ main {
 
 .cubiq_list:hover {
     cursor: pointer;
-    transform: scale(1.2) translateX(-8px);
+    background-color: #bbbbbb;
 }
 
 #cubiq_categories_list {

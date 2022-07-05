@@ -9,7 +9,7 @@ function categoryOnload() {
     categoryList[0].classList.add('active');
 }
 
-function openCategories(evt, cityName) {
+function openCategories(evt, categoryName) {
 
     categories = document.querySelectorAll('.cubiq_news');
     categoryList = document.querySelectorAll('.cubiq_list');
@@ -27,7 +27,7 @@ function openCategories(evt, cityName) {
             categoryList[i].classList.remove('active');
         }
     }
-    document.querySelector(`#${cityName}`).classList.remove('unactive');
+    document.querySelector(`#${categoryName}`).classList.remove('unactive');
     evt.currentTarget.classList.add('active');
     categoryScroll();
 }
