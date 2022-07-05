@@ -14,9 +14,10 @@ function openCategories(evt, categoryName) {
     categories = document.querySelectorAll('.cubiq_news');
     categoryList = document.querySelectorAll('.cubiq_list');
     let categoriesNews = document.querySelector('#cubiq_categories_news');
+    let categoriesBlock = document.querySelector('#cubiq_categories');
     function categoryScroll() {
         categoriesNews.scrollTop = 0;
-        categoriesNews.scrollIntoView({block: "start", behavior: "smooth"});
+        categoriesBlock.scrollIntoView({block: "start", behavior: "smooth"});
     }
   
     for ( let i = 0; i < categories.length; i++) {
